@@ -1,0 +1,27 @@
+{
+  "name": "downloads-garbage-collector",
+  "version": "1.0.0",
+  "description": "Script to sort files and remove uneccesary copies from Downloads directory",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grubeo/DownloadsGarbageCollector.git"
+  },
+  "keywords": [
+    "filesystem",
+    "garbage",
+    "collector"
+  ],
+  "author": "Robert Bendun",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Grubeo/DownloadsGarbageCollector/issues"
+  },
+  "homepage": "https://github.com/Grubeo/DownloadsGarbageCollector#readme",
+  "dependencies": {
+    "highland": "^2.13.0"
+  }
+}

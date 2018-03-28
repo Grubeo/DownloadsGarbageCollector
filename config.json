@@ -1,8 +1,11 @@
-[
-        {"name": "Music",     "fileType": ["MP3"]},
-        {"name": "Archives",  "fileType": ["ISO", "ZIP", "7Z" ]},
-        {"name": "Documents", "fileType": ["DOCX", "DOC", "PDF"]},
-        {"name": "Applications", "fileType": ["EXE", "COM", "BAT", "MSI"]},
-        {"name": "Code Snippets", "fileType": ["CPP", "PY", "JS", "HTML"]},
-        {"name": "Pictures", "fileType": ["JPG", "PNG", "GIF"]}
-]
+{
+	"root": "Pobrane",
+	"directories": [
+		{"name": "Music",     "fileType": ["MP3"]},
+		{"name": "Archives",  "fileType": ["ISO", "ZIP", "7Z" ]},
+		{"name": "Documents", "fileType": ["DOCX", "DOC", "PDF"]},
+		{"name": "Applications", "fileType": ["EXE", "COM", "BAT", "MSI"]},
+		{"name": "Code Snippets", "fileType": ["CPP", "PY", "JS", "HTML"]},
+		{"name": "Pictures", "fileType": ["JPG", "PNG", "GIF"]}
+	]
+}
