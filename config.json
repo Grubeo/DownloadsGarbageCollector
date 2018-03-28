@@ -1,5 +1,5 @@
 {
-	"root": "Pobrane",
+	"root": "Downloads",
 	"directories": [
 		{"name": "Music",     "fileType": ["MP3"]},
 		{"name": "Archives",  "fileType": ["ISO", "ZIP", "7Z" ]},

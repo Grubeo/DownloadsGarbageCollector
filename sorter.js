@@ -3,7 +3,9 @@ const errorPath = 'errors.txt'
 
 module.exports = function(systemInfo, directories) {
     console.log(systemInfo)
-    const directoryContent = fs.readdirSync(systemInfo.downloadsPath)
+    const directoryContent = 
+        fs.readdirSync(systemInfo.downloadsPath)
+        .filter(path => !fs.statSync(systemInfo.downloadsPath + systemInfo.separator + path).isDirectory())
 
     function extensionToCategory(extension) {
         extension = extension.toUpperCase()

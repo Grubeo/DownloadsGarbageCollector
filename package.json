@@ -22,6 +22,8 @@
   },
   "homepage": "https://github.com/Grubeo/DownloadsGarbageCollector#readme",
   "dependencies": {
-    "highland": "^2.13.0"
+    "baconjs": "^2.0.5",
+    "file-compare": "0.0.2",
+    "npm": "^5.8.0"
   }
 }
